@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "toLF": "prettier --write .",
+        "start": "node server.js",
+        "dev": "supervisor server.js",
+        "lint": "eslint ."
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "express-session": "^1.18.0",
+        "supervisor": "^0.12.0"
+    }
+}
